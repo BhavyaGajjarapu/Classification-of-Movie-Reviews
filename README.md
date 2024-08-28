@@ -1,7 +1,6 @@
 # Classification-of-Movie-Reviews
 Sentiment analysis using a neural network.
 Steps:
-
 Load IMDB dataset: Loads the IMDB movie review dataset from Keras, limiting the vocabulary to the top 20,000 most frequent words.
 Preprocess data: Creates a vocabulary mapping words to integers, encodes reviews as sequences of integers, and pads sequences to a fixed length.
 Build the model: Defines a sequential neural network model with an embedding layer, a flattening layer, a dropout layer for regularization, a dense layer, and a final dense layer with sigmoid activation for binary classification.
